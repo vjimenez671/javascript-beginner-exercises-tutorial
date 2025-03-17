@@ -32,7 +32,7 @@ var family = {
 
 
 function addAllFamilyLuckyNumbers(anArray) {
-    let sumOfAllLuckyNumbers = 0; //sumOfAllLuckyNumbers is a number, the sum of all lucky numbers.
+    let sumOfAllLuckyNumbers = 0; 
     for (let i = 0; i < anArray.length; i++) {
         for (let x = 0; x < anArray[i].luckyNumbers.length; x++) {
             sumOfAllLuckyNumbers += anArray[i].luckyNumbers[x];
